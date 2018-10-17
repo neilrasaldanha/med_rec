@@ -1,0 +1,73 @@
+:root {
+
+/* Colour scheme reference
+dark teal: #129793
+charcoal: #505050
+pastel yellow: #FFF5C3
+pastel blue: #9BD7D5
+coral: #FF7260
+ */
+    --background-color: #FF7260;
+	--background-color: #9BD7D5;
+	--navbar-color: #505050;
+	--jumbotron-color: #9BD7D5;
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+/*not used*/
+h1 {
+    color: red;
+    text-align: center;
+	
+	font-family: verdana;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+/*not used*/
+p {
+    font-family: verdana;
+    font-size: 400px;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: var(--navbar-color);
+}
+    
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #FF7260;
+    padding: 25px;
+}
+
+.jumbotron {
+	color:  var(--navbar-color);
+	background-color: var(--jumbotron-color);
+}
+div.container {
+	height: auto;
+}
+
+.button {
+    background-color: #9BD7D5;
+    border: none;
+    color: var(--navbar-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.tagline{font-size:30px;}
+.subtag{font-size:20px;}
+.profile-usertitle{font-size:40px;}
+.profile-usermenu{font-size:40px;}
+.sidebar-usermenu{font-size:20px;}
