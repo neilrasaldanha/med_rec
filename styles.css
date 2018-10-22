@@ -6,11 +6,12 @@ charcoal: #505050
 pastel yellow: #FFF5C3
 pastel blue: #9BD7D5
 coral: #FF7260
+midnight blue: #003366
+concrete: #686c5e
  */
-    --background-color: #FF7260;
-	--background-color: #9BD7D5;
+	--background-color: #f6f6f6;
 	--navbar-color: #505050;
-	--jumbotron-color: #9BD7D5;
+	--jumbotron-color: ##003366;
 }
 
 body {
@@ -21,16 +22,20 @@ body {
 h1 {
     color: red;
     text-align: center;
-	
 	font-family: verdana;
 	font-size: 60px;
 	font-weight: 500;
+}
+
+h3 {
+	color: var(--navbar-color);
 }
 
 /*not used*/
 p {
     font-family: verdana;
     font-size: 400px;
+	color: var(--navbar-color);
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -55,7 +60,7 @@ div.container {
 }
 
 .button {
-    background-color: #9BD7D5;
+    background-color: #f6f6f6;
     border: none;
     color: var(--navbar-color);
     padding: 15px 32px;
@@ -66,8 +71,10 @@ div.container {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .tagline{font-size:30px;}
 .subtag{font-size:20px;}
-.profile-usertitle{font-size:40px;}
+.profile-usertitle{font-size:40px; color: var(--navbar-color);}
 .profile-usermenu{font-size:40px;}
 .sidebar-usermenu{font-size:20px;}
+/*.profile-sidebar{background-color:#FDA50F}*/
